@@ -1,0 +1,59 @@
+/* style for tweetbox.js*/
+
+.btn-primary {
+  width: 80px;
+  background-color: var(--twitter-color);
+  height: 40px;
+  margin-left: auto;
+}
+
+.tweetBox {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-bottom: 8px var(--twitter-color);
+}
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+.tweetBox-input {
+  padding: 20px;
+  display: flex;
+}
+
+.tweetBox-input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.tweetBox-imageInput {
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+/* style for Feed.js*/
+.feed {
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed-header {
+  postion: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
