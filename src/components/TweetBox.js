@@ -9,7 +9,7 @@ function Tweetbox () {
       <div className="tweetBox">
         <form>
           <div className="tweetBox-input">
-            <Avatar src="https://twitter.com/jarmir89/photohttps://pbs.twimg.com/profile_images/1212365094/161351_597643132_6991583_q_400x400.jpg" />
+            <Avatar src="https://twitter.cohttps://pbs.twimg.com/profile_images/1212365094/161351_597643132_6991583_q_400x400.jpgm/jarmir89/photohttps://pbs.twimg.com/profile_images/1212365094/161351_597643132_6991583_q_400x400.jpg" />
             <input type="text" placeholder="What's up?" />
           </div>
           <input
