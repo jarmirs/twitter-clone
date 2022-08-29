@@ -10,6 +10,7 @@
 - complete functionality
 - deploy to github pages
 - add Firebase DB
+- make responsive (mobil)
 
 ##initial Phase Screen Shot
 ![alt text](Initial-phase-screenshot.jpg)
