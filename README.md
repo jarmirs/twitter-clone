@@ -14,3 +14,4 @@
 
 ##initial Phase Screen Shot
 ![alt text](Initial-phase-screenshot.jpg)
+![alt text](init-phase-ss2.jpg)
