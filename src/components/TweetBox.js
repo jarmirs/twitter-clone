@@ -2,8 +2,7 @@ import { Avatar } from "@mui/material";
 import React, { useState } from "react";
 import "./Feed.css";
 import {db} from "../firebase";
-import { FirebaseError } from "firebase/app";
-import firebase from 'firebase';
+
 
 function Tweetbox() {
   const [tweetMessage, setTweetMessage] = useState("");
@@ -12,7 +11,6 @@ function Tweetbox() {
     e.preventDefault();
     db.collection("post").add({
       displayName: "jarmir89",
-      timestamp:firebase.firestore.FieldValue.serverTimestamp (),
       userName: "jarmir smith",
       verified: true,
       text: tweetMessage,
