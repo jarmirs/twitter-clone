@@ -5,7 +5,6 @@
   background-color: var(--twitter-color);
   height: 40px;
   margin-left: auto !important;
-
 }
 
 .tweetBox {
@@ -60,47 +59,80 @@
 }
 /* style for Post.js*/
 
-.post{
-    display: flex;
-    align-items: flex-start;
-    border-bottom: 1px solid var(--twitter-background);
-    padding-bottom: 10px;
-
-
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
 }
-.post-body{
-flex:1;
-padding:10px;
+.post-body {
+  flex: 1;
+  padding: 10px;
 }
-.post-avatar{
- padding:20px;   
+.post-avatar {
+  padding: 20px;
 }
-.post-image{
-    border-radius: 20px;
-    width: 100%;
+.post-image {
+  border-radius: 20px;
+  width: 100%;
 }
-.post-footer{
-    display:flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-.post-badge{
-    font-size:14px !important;
-    color: var(--twitter-color);
-
+.post-badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
 }
-.post-headerText >h3{
-font-size: 15px;
-margin-bottom: 5px;
+.post-headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
 }
-.post-headerSpecial{
-    font-weight: 600;
-    font-size: 12px;
-    color: gray;
+.post-headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
 }
 .post-headerDescription {
-    margin-bottom: 10px;
-    font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 /* style for Widget.js*/
+.widgets {
+  flex: 0.3;
+}
+
+.widgets-input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets-input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  outline: none;
+}
+
+.widgets-searchIcon {
+  color: gray;
+}
+
+.widgets-widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets-widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
