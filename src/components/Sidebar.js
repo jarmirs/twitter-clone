@@ -12,7 +12,6 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Home, HomeMax, Search } from "@mui/icons-material";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
-
 function Sidebar() {
   return (
     //Bem convention
@@ -28,7 +27,7 @@ function Sidebar() {
       <SidebarOptions Icon={MoreHorizIcon} text="More" />
 
       <button type="button" className="btn btn-primary">
-      Tweet
+        Tweet
       </button>
     </div>
   );
